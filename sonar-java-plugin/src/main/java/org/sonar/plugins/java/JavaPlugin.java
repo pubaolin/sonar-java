@@ -95,8 +95,7 @@ public class JavaPlugin implements Plugin {
         .type(PropertyType.BOOLEAN)
         .defaultValue("false")
         .category(JavaConstants.JAVA_CATEGORY)
-        // .onQualifiers(Qualifiers.PROJECT)
-        .hidden()
+        .onQualifiers(Qualifiers.PROJECT)
         .build()
       );
 
